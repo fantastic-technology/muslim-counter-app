@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 50px;
+    font-family: cursive;
+}
+.btn1{
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgba(255, 68, 0, 0.59);
+    transition: 2s ease-in-out;
+}
+.btn2{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: aqua;
+    transition: 2s ease-in-out;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    transition: 2s ease-in-out;
+}
+#labelbg{
+    background-color: cyan;
+    border: solid black;
+    width: 80%;
+    border-radius: 10px;
+    transition: 2s ease-in-out;
+}
+#all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(100, 148, 237, 0.461);
+    border: solid black;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 2s ease-in-out;
+}
+#all2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#all3{
+    
+}
+#increasebtn{
+    padding: 20px;
+    border-radius: 60px;
+    width: 80%;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border: solid white;
+    transition: 2s ease-in-out;
+}
+#decreasebtn{
+    padding: 20px;
+    border-radius: 60px;
+    width: 80%;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    background-color: rgba(203, 73, 73, 0.752);
+    border: solid white;
+    transition: 2s ease-in-out;
+}
+#resetbtn{
+    border: solid orangered;
+    background-color: white;
+    padding: 10px;
+    border-radius: 60px;
+    height: 10vh;
+    width: 60%;
+    animation: change ease 2s infinite;
+    box-shadow: 3px 2px  7px black;
+    transition: 2s ease-in-out;
+}
+.list2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ret{
+    color: red;
+}
+#alldiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+p{
+    margin-top: 40px;
+    color: cornsilk;
+    padding: 10px;
+    color: blueviolet;
+    border-radius: 10px;
+}
+@keyframes change {
+    100%{
+        border: solid orangered;
+    }
+    80%{
+        border: solid red;
+    }
+    70%{
+        border: solid blue
+    }
+    100%{
+        border: solid orangered;
+    }
+    80%{
+        border: solid red;
+    }
+    65%{
+        border: solid indigo;
+    }
+    60%{
+        border: solid pink;
+    }
+    50%{
+        border: solid red;
+    }
+    0%{
+        border: solid royalblue;
+    }
+}
